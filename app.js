@@ -23,7 +23,7 @@ function attack() {
       hitPoints = (hitPoints - damage)
       userHp.innerHTML = `User Hitpoints: ${hitPoints}`
       if(hitPoints <= 0) {
-        alert("YOU ARE A GIANT PUSSY! YOU HAVE BEEN SLAIN!")
+        alert("YOU HAVE BEEN SLAIN!")
       }
     }, 1500)
 
